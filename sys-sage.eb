@@ -1,0 +1,25 @@
+name="sys-sage"
+version="1.0.1"
+
+homepage="https://github.com/stephanvanecek/sys-sage"
+description="This is the first version of Sys-Sage"
+
+toolchain={'name'='GCC', 'version': '9.4.0'}
+
+source_urls=['https://github.com/stepanvanecek/sys-sage',
+	     'https://github.com/Rajpreet2206/TUM_Informatics_sys_sage'
+	]
+
+builddependencies=[('CMake', '3.16.3')]
+
+dependencies=[
+	()
+	]
+
+moduleclass='tools'
+
+
+
+
+
+
